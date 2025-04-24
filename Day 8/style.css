@@ -1,0 +1,51 @@
+
+.body {
+    background-color: #faf7fe;
+    font-family: "poppins", sans-serif;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+   
+}
+
+.mini_card{
+    border: 2px solid rgb(214, 194, 194);
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 30px 15px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+span, a {
+    display: flex;
+    justify-content: center;
+}
+p {
+    color: rgb(206, 144, 144);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: #9e99c2;
+    padding: 20px;
+}
+
+ul {
+    line-height: 40px;
+}

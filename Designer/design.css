@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0;
+
+}
+.design {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 300px;
+    border-radius: 20px;
+
+}
+
+.framer {
+    color: black;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.drake {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+list-style: none;
+display: flex;
+justify-content: center;
+column-gap: 20px
+
+}
+
+
+

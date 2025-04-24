@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-size: 100px solid white;
+}
+
+.designer {
+    padding: 30px;
+    border: 2px solid white;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.visual {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    border-radius: 20px;
+    
+    
+}
+
+.losangeles {
+    font-size: 20px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    column-gap: 10px;
+}
+
+.hire {
+    display: inline-block;
+    background-color: green;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 25px;
+
+
+}
+
+
+.hire {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+free {
+            border: 2px solid gold;
+        }
+
+span {
+    font-size: 45px;
+}
+
+free, plan, started  {
+    display: flex;
+    justify-content: center;
+}
