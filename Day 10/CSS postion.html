@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS position</title>
+    <style>
+        .detail {
+            border: 2px solid red;
+           width: 80px;
+           height: 50px;
+           display: flex;
+           align-items: center;
+           padding-left: 20px;
+           
+        }
+
+        .minishadow {
+            height: 150px;
+            width: 150px;
+            border-radius: 20px;
+            
+    
+        }
+        .shadow {
+            display: flex;
+            justify-content: space-evenly;
+           
+
+        }
+        #minishadow1 {
+            box-shadow: 2px 2px 2px 2px gray;
+
+        }
+
+        #minishadow2 {
+            box-shadow: inset 0px ;
+        }
+    </style>
+</head>
+<body>
+     <div>
+    
+        <div class="shadow">
+            <div class="minishadow" id="minishadow1"></div>
+            <div class="minishadow" id="minishadow2"></div>
+            <div class="minishadow" id="minishadow3"></div>
+        </div>
+
+
+        
+
+
+
+     </div>
+
+</body>
+</html>

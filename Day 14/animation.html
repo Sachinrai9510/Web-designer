@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+        .movebox{
+            height: 150px;
+            width: 150px;
+            background-color: pink;
+
+            animation-name: movebox;
+            animation-duration: 2s;
+            position: relative;
+            animation-iteration-count: infinite;
+
+            /* transition: all 2s; */
+        }
+        /* .movebox:hover {
+            margin-top: 200px;
+        } */
+
+        @keyframes movebox {
+            from {
+                background-color: aqua;
+                top: 0;
+
+
+            }
+
+            to {
+                background-color: greenyellow;
+                top: 200px;
+
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="movebox"></div>
+    
+</body>
+</html>

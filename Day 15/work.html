@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basaha</title>
+    <style>
+        .box { 
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            border-radius: 50px;
+            color: aliceblue;
+            animation-name: box;
+            animation-duration: 2s;
+            position: relative;
+            animation-iteration-count: spin 2s linear infinite;
+            
+        }
+
+
+        @keyframes spin {
+            0% {
+                transform: rotate(deg);
+                background-color: black;
+            }
+            100% {
+                transform: 360deg;
+                background-color: black;
+                left: 200px;
+                top: 200px;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="minibox"></div>
+    </div>
+    
+</body>
+</html>

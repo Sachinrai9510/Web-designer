@@ -60,6 +60,26 @@ ul {
 }
 
 
+/* .designer2 {
+    position: relative;
+    height: 200px;
+
+} */
+
+/* .artist {
+    color: green;
+} */
+
+main {
+    display: flex;
+    justify-content: space-between
+}
+
+
+
+
+
+
 
 
 
